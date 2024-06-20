@@ -1,0 +1,28 @@
+.trailer {
+  background: url("./assets/trailers/trailer1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: self-end;
+
+  width: 25rem;
+  height: 12.571rem;
+
+  padding: 0.5rem 1rem;
+}
+
+.trailer img {
+  width: 2.747rem;
+  height: 2.7rem;
+}
+
+.trailer p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 21.94px;
+
+  color: white;
+}

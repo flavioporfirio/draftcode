@@ -1,0 +1,50 @@
+.entry-option {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.trailer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23.1rem;
+}
+
+.trailer-container h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 29.26px;
+
+  text-transform: uppercase;
+  text-align: left;
+
+  padding-bottom: 1.8rem;
+
+  color: white;
+}
+
+.trailer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40.29px;
+}
+
+.trailer-list li {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .entry-option,
+  .trailer-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .entry-option,
+  .trailer-container {
+    display: none;
+  }
+}
