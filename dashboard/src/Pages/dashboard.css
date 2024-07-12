@@ -1,0 +1,65 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+
+  width: 100%;
+
+  padding: 5.6rem 17.9rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-info h1 {
+  font-size: 2.8rem;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.account-info p {
+  font-size: 1.8rem;
+  line-height: 27px;
+  font-weight: 500;
+  color: #6a6969;
+}
+
+.account-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-info img {
+  border-radius: 50%;
+  width: 4.2rem;
+  height: 4.1rem;
+}
+
+.notification-bell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.graphics {
+  display: flex;
+  gap: 3.2rem;
+  align-items: flex-start;
+}

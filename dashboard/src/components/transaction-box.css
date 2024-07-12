@@ -1,0 +1,23 @@
+.transaction-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 1.4rem;
+
+  background: #9e6efe0f;
+}
+
+.transaction-box p {
+  line-height: 24px;
+  letter-spacing: -2%;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+
+  color: #9e6efe;
+}
+
+.transaction-box p:nth-child(2) {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 27px;
+}

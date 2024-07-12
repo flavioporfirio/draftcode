@@ -1,0 +1,59 @@
+.graphic-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  width: 59.2rem;
+  height: 33.5rem;
+
+  padding: 2.4rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.graphic-data {
+  display: flex;
+
+  gap: 8.8rem;
+}
+
+.graphic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.graphic-content p,
+.graphic-labels p {
+  line-height: 24px;
+  letter-spacing: -2%;
+  font-weight: 500;
+  font-size: 1.6rem;
+
+  color: #6a6969;
+}
+
+.graphic-month {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.9rem;
+
+  padding-bottom: 1.4rem;
+
+  height: 100%;
+}
+
+.graphic-month div {
+  height: 40%;
+  background-color: #9e6efe3d;
+  width: 4.2rem;
+
+  border-radius: 0.6rem;
+}
+
+.graphic-labels {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
