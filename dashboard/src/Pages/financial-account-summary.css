@@ -1,0 +1,40 @@
+.financial-account-summary {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.financial-account-summary h3 {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.financial-account-summary span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.status-container {
+  display: flex;
+  gap: 0.4rem;
+
+  background-color: hsla(161, 88%, 37%, 0.059);
+
+  width: 8.7rem;
+  height: 3.2rem;
+
+  padding: 0.7rem 1.2rem;
+  border-radius: 50px;
+}
+
+.status-container p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18.15px;
+
+  color: #0bb07b;
+}
+
+.status-container.trending-down p {
+  color: #f03d3d;
+}

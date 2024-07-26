@@ -1,0 +1,42 @@
+.buyer-history {
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+
+  padding: 3rem 4rem;
+
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.buyer-history h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+.buyer-history thead tr {
+  display: flex;
+  justify-content: flex-start;
+
+  text-align: left;
+
+  padding-block: 3.2rem 2.4rem;
+}
+
+.buyer-history thead th {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.buyer-history tbody {
+  list-style-type: none;
+}

@@ -1,0 +1,12 @@
+.finance-account-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  width: 28rem;
+  height: 15rem;
+
+  background-color: #fff;
+
+  padding: 2rem;
+}

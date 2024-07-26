@@ -3,7 +3,9 @@ import searchIcon from "../assets/icons/search.svg";
 import profileImg from "../assets/profile-img.jpeg";
 import Graphics from "../components/Graphics";
 import Resume from "../components/Resume";
+import { BuyerHistory } from "./buyer-history";
 import "./dashboard.css";
+import { FinancialAccountSummary } from "./financial-account-summary";
 
 export default function Dashboard() {
   return (
@@ -31,9 +33,10 @@ export default function Dashboard() {
         <Graphics />
         <Resume />
       </div>
-      <div className="resume"></div>
+
+      <FinancialAccountSummary />
       <div className="buyer-list-container">
-        <ul></ul>
+        <BuyerHistory />
       </div>
     </div>
   );
